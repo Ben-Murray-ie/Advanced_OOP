@@ -1,6 +1,8 @@
 # Advanced_OOP
  Advanced Object-Oriented Programming Project - A multi-threaded indexing API, using Project Loom virtual threads
 
+---
+
 This project intakes a user-specified text file and outputs an index of words found in that text 
 mapped to their dictionary definitions and a list of pages on which each word is found. The program 
 parses the users file in a conventional way, reading line by line and breaking each line into words. 
@@ -19,12 +21,17 @@ this, as well as using an overarching Indexer class to delegate tasks privately,
 encapsulation, while leaving enough functionality exposed for the user to extend the program if 
 required. 
 
+---
+
 Extra functionality is included, and offered to the user once the program has built the index. An 
 output menu with the following options is presented: 
+
 * Print index words in sorted order to console (with user defined number of words per row).
 * Print words in reverse sorted order to console. 
 * Print total number of unique words in index to console. 
 * Print list of most frequently found words in text to console (user defined length of list).
+
+---
 
 **Instructions:** 
 
@@ -32,6 +39,8 @@ User is prompted to enter paths to their chosen text file, dictionary file, comm
 file they wish the index to be written to. User is notified of complete, and total processing time in 
 milliseconds. The user is then prompted to select options for extra output as described above. Upon 
 completion, the program closes. Java 19 or later is required.
+
+---
 
 **Demonstration:**
 
